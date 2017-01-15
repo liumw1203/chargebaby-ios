@@ -7,13 +7,88 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80466F897CA945AD20C51B5E /* Pods_chargebaby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A045C97BF0AA9896668065 /* Pods_chargebaby.framework */; };
+		F20D0BB71E24296500A05D6D /* UIImage+Extendion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D0BB61E24296500A05D6D /* UIImage+Extendion.swift */; };
+		F21326181E1A361C0079B5E1 /* LMWHomeSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21326171E1A361C0079B5E1 /* LMWHomeSearchBar.swift */; };
+		F21920DD1DF3FEA500B2A22E /* LMWLoginInfoUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21920DC1DF3FEA500B2A22E /* LMWLoginInfoUtils.swift */; };
+		F21920E21DF4206B00B2A22E /* LMWUserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21920E11DF4206B00B2A22E /* LMWUserInfoModel.swift */; };
+		F21920E61DF4355700B2A22E /* LMWJsonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21920E51DF4355700B2A22E /* LMWJsonModel.swift */; };
+		F21B62781E1ABF170088E79A /* LMWSearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21B62771E1ABF170088E79A /* LMWSearchResultCell.swift */; };
+		F21B627C1E1AF7B20088E79A /* LMWChargeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21B627B1E1AF7B20088E79A /* LMWChargeModel.swift */; };
+		F21B627E1E1AFB010088E79A /* LMWCommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21B627D1E1AFB010088E79A /* LMWCommentModel.swift */; };
+		F21B62811E1AFE900088E79A /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F21B627F1E1AFE900088E79A /* LoadingCell.xib */; };
+		F21B62821E1AFE900088E79A /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F21B62801E1AFE900088E79A /* NothingFoundCell.xib */; };
+		F21B62851E1B22410088E79A /* LMWDataBaseTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21B62841E1B22410088E79A /* LMWDataBaseTools.swift */; };
+		F22080D91E134F09005FCCDC /* LMWPopBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22080D81E134F09005FCCDC /* LMWPopBottomView.swift */; };
+		F22080DD1E13A194005FCCDC /* ChargePointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22080DC1E13A194005FCCDC /* ChargePointAnnotation.swift */; };
+		F2213DE11E125B1F008DD79A /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F2213DE01E125B1F008DD79A /* libsqlite3.0.tbd */; };
+		F2213DE41E125CBD008DD79A /* chargebaby.db in Resources */ = {isa = PBXBuildFile; fileRef = F2213DE31E125CBD008DD79A /* chargebaby.db */; };
+		F2213DE81E125CDA008DD79A /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2213DE51E125CDA008DD79A /* SQLiteDB.swift */; };
+		F2213DE91E125CDA008DD79A /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2213DE61E125CDA008DD79A /* SQLTable.swift */; };
+		F2213DEA1E125CDA008DD79A /* String-Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2213DE71E125CDA008DD79A /* String-Extras.swift */; };
+		F222D6841E101CC000676CA3 /* BottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F222D6831E101CC000676CA3 /* BottomView.xib */; };
+		F22314941E1DF4D500B8EFB7 /* LMWDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22314931E1DF4D500B8EFB7 /* LMWDetailViewController.swift */; };
+		F22314961E1DF4ED00B8EFB7 /* LMWCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22314951E1DF4ED00B8EFB7 /* LMWCommentViewController.swift */; };
+		F22314991E1DF80200B8EFB7 /* commentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22314971E1DF80200B8EFB7 /* commentCell.swift */; };
+		F223149A1E1DF80200B8EFB7 /* commentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F22314981E1DF80200B8EFB7 /* commentCell.xib */; };
+		F223149C1E1E1EB900B8EFB7 /* LMWCommentResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = F223149B1E1E1EB900B8EFB7 /* LMWCommentResults.swift */; };
+		F223149D1E1E203300B8EFB7 /* LMWCommentResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = F223149B1E1E1EB900B8EFB7 /* LMWCommentResults.swift */; };
+		F223149F1E1E243800B8EFB7 /* LMWGetDataFromRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = F223149E1E1E243800B8EFB7 /* LMWGetDataFromRemote.swift */; };
+		F223C7FE1E19083A00569F21 /* LMWChargeDianpingStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F223C7FD1E19083A00569F21 /* LMWChargeDianpingStoryboard.storyboard */; };
+		F223C8001E19850F00569F21 /* LMWCollectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F223C7FF1E19850F00569F21 /* LMWCollectViewController.swift */; };
+		F223C8021E19856D00569F21 /* LMWFavoriteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F223C8011E19856D00569F21 /* LMWFavoriteTableViewController.swift */; };
+		F223C8041E198D8A00569F21 /* LMWFavoriteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F223C8031E198D8A00569F21 /* LMWFavoriteTableViewCell.xib */; };
+		F223C8061E1991FC00569F21 /* LMWFavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F223C8051E1991FC00569F21 /* LMWFavoriteTableViewCell.swift */; };
+		F2260EC61E222C1400F9BD91 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2260EC51E222C1400F9BD91 /* Reachability.swift */; };
+		F22A886D1E1A65F300F00FD7 /* LMWSearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F22A886C1E1A65F300F00FD7 /* LMWSearchResultCell.xib */; };
+		F22A9D7E1DEA66B200F02C60 /* LMWLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22A9D7D1DEA66B200F02C60 /* LMWLoginViewController.swift */; };
 		F23983E21DD45114005A448B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23983E11DD45114005A448B /* AppDelegate.swift */; };
-		F23983E41DD45114005A448B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23983E31DD45114005A448B /* ViewController.swift */; };
 		F23983E71DD45114005A448B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23983E51DD45114005A448B /* Main.storyboard */; };
 		F23983E91DD45114005A448B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F23983E81DD45114005A448B /* Assets.xcassets */; };
 		F23983EC1DD45114005A448B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23983EA1DD45114005A448B /* LaunchScreen.storyboard */; };
 		F23983F71DD45114005A448B /* chargebabyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23983F61DD45114005A448B /* chargebabyTests.swift */; };
 		F23984021DD45114005A448B /* chargebabyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23984011DD45114005A448B /* chargebabyUITests.swift */; };
+		F23984201DD457D7005A448B /* LMWTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F239841F1DD457D7005A448B /* LMWTabBarController.swift */; };
+		F23984251DD45847005A448B /* LMWNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23984241DD45847005A448B /* LMWNavigationController.swift */; };
+		F23984271DD4587F005A448B /* LMWBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23984261DD4587F005A448B /* LMWBaseViewController.swift */; };
+		F23984291DD458C4005A448B /* LMWMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23984281DD458C4005A448B /* LMWMineViewController.swift */; };
+		F239842B1DD458F2005A448B /* LMWHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F239842A1DD458F2005A448B /* LMWHomeViewController.swift */; };
+		F239842D1DD45A78005A448B /* LMWConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = F239842C1DD45A78005A448B /* LMWConst.swift */; };
+		F267EF011E1BB7AE00131715 /* LMWSearchViewStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F267EF001E1BB7AE00131715 /* LMWSearchViewStoryboard.storyboard */; };
+		F267EF031E1BB7DC00131715 /* LMWSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F267EF021E1BB7DC00131715 /* LMWSearchViewController.swift */; };
+		F27864521DFFD19C008921EE /* LMWFeedbackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27864511DFFD19C008921EE /* LMWFeedbackModel.swift */; };
+		F27864541DFFE552008921EE /* LMWFeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27864531DFFE552008921EE /* LMWFeedbackViewController.swift */; };
+		F279C6301DF6C74B008EEA6A /* LMWRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F279C62F1DF6C74B008EEA6A /* LMWRegisterViewController.swift */; };
+		F279C6321DF6D2D9008EEA6A /* LMWRegisterStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F279C6311DF6D2D9008EEA6A /* LMWRegisterStoryboard.storyboard */; };
+		F28072CC1DF5474300623EBD /* LMWFavoriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28072CB1DF5474300623EBD /* LMWFavoriteModel.swift */; };
+		F28072CE1DF591CE00623EBD /* LMWTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28072CD1DF591CE00623EBD /* LMWTools.swift */; };
+		F2A2CAC51DDC39DC0046A951 /* LMWHomeViewStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A2CAC41DDC39DC0046A951 /* LMWHomeViewStoryboard.storyboard */; };
+		F2ABFD701DDB1DB90079A296 /* LMWMineViewStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2ABFD6F1DDB1DB90079A296 /* LMWMineViewStoryboard.storyboard */; };
+		F2AC97A51DF1242900C58C42 /* LMWSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC97A41DF1242900C58C42 /* LMWSettingViewController.swift */; };
+		F2AC97A71DF1247200C58C42 /* LMWSettingViewStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2AC97A61DF1247200C58C42 /* LMWSettingViewStoryboard.storyboard */; };
+		F2B8B4DB1DF0107000C9720D /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B8B4DA1DF0107000C9720D /* String+Extension.swift */; };
+		F2CF99EB1DE3EB9100BCE87F /* LMWLoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2CF99EA1DE3EB9100BCE87F /* LMWLoginStoryboard.storyboard */; };
+		F2D5ED551E1714F500F8C355 /* BaseUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5ED541E1714F500F8C355 /* BaseUIView.swift */; };
+		F2DB5F121DFBF3C1002558A2 /* LMWForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DB5F111DFBF3C1002558A2 /* LMWForgetPasswordViewController.swift */; };
+		F2DB5F141DFC004E002558A2 /* LMWForgetPasswordStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2DB5F131DFC004E002558A2 /* LMWForgetPasswordStoryboard.storyboard */; };
+		F2E6BF681E17A6B900F5FD11 /* SKLaunchMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E6BF651E17A6B900F5FD11 /* SKLaunchMenu.swift */; };
+		F2E6BF691E17A6B900F5FD11 /* SKLaunchMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E6BF661E17A6B900F5FD11 /* SKLaunchMenuItem.swift */; };
+		F2E6BF6A1E17A6B900F5FD11 /* SKScNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E6BF671E17A6B900F5FD11 /* SKScNavBar.swift */; };
+		F2E6BF6D1E17A6D400F5FD11 /* arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2E6BF6B1E17A6D400F5FD11 /* arrow@3x.png */; };
+		F2E6BF6E1E17A6D400F5FD11 /* SKMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E6BF6C1E17A6D400F5FD11 /* SKMacros.swift */; };
+		F2E6BF701E17A6E200F5FD11 /* SKScNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E6BF6F1E17A6E200F5FD11 /* SKScNavViewController.swift */; };
+		F2E6BF721E17C2E400F5FD11 /* LMWChargeTitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E6BF711E17C2E400F5FD11 /* LMWChargeTitleViewController.swift */; };
+		F2E6BF741E17D55F00F5FD11 /* LMWChargeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E6BF731E17D55F00F5FD11 /* LMWChargeStoryboard.storyboard */; };
+		F2E6BF761E17DB2B00F5FD11 /* LMWChargeDetailViewStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E6BF751E17DB2B00F5FD11 /* LMWChargeDetailViewStoryboard.storyboard */; };
+		F2F1D8631E15E20000003E9D /* YSSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F1D8621E15E20000003E9D /* YSSegmentedControl.swift */; };
+		F2F1D8651E15E58E00003E9D /* LMWChargeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F1D8641E15E58E00003E9D /* LMWChargeViewController.swift */; };
+		F2F1D8691E15ECE700003E9D /* LMWChargeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F1D8681E15ECE700003E9D /* LMWChargeDetailViewController.swift */; };
+		F2F1D86B1E15ED0400003E9D /* LMWChargeDianpingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F1D86A1E15ED0400003E9D /* LMWChargeDianpingViewController.swift */; };
+		F2F1D8791E16672D00003E9D /* LMWChargeDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2F1D8781E16672D00003E9D /* LMWChargeDetailView.xib */; };
+		F2F1D87B1E16674300003E9D /* LMWChargeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F1D87A1E16674300003E9D /* LMWChargeDetailView.swift */; };
+		F2F1D87D1E16675D00003E9D /* LMWChargeDianpingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F1D87C1E16675D00003E9D /* LMWChargeDianpingView.swift */; };
+		F2F1D87F1E16676C00003E9D /* LMWChargeDianpingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2F1D87E1E16676C00003E9D /* LMWChargeDianpingView.xib */; };
+		F2FF04ED1E0F5D6C00042FC1 /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FF04EB1E0F5D6C00042FC1 /* BottomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +109,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		477A157EE0CE4CB92C8D2423 /* Pods-chargebaby.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chargebaby.release.xcconfig"; path = "Pods/Target Support Files/Pods-chargebaby/Pods-chargebaby.release.xcconfig"; sourceTree = "<group>"; };
+		C8A045C97BF0AA9896668065 /* Pods_chargebaby.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chargebaby.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFB6769B2CB67A75C4D5582 /* Pods-chargebaby.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chargebaby.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chargebaby/Pods-chargebaby.debug.xcconfig"; sourceTree = "<group>"; };
+		F20D0BB61E24296500A05D6D /* UIImage+Extendion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Extendion.swift"; path = "CLasses/Main/Category/UIImage+Extendion.swift"; sourceTree = "<group>"; };
+		F21326171E1A361C0079B5E1 /* LMWHomeSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWHomeSearchBar.swift; path = CLasses/Home/View/LMWHomeSearchBar.swift; sourceTree = "<group>"; };
+		F21920DC1DF3FEA500B2A22E /* LMWLoginInfoUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWLoginInfoUtils.swift; path = CLasses/Main/Tools/LMWLoginInfoUtils.swift; sourceTree = "<group>"; };
+		F21920E11DF4206B00B2A22E /* LMWUserInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWUserInfoModel.swift; path = "CLasses/Login&Register/Model/LMWUserInfoModel.swift"; sourceTree = "<group>"; };
+		F21920E51DF4355700B2A22E /* LMWJsonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWJsonModel.swift; path = CLasses/Main/Model/LMWJsonModel.swift; sourceTree = "<group>"; };
+		F21B62771E1ABF170088E79A /* LMWSearchResultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWSearchResultCell.swift; path = CLasses/Home/View/LMWSearchResultCell.swift; sourceTree = "<group>"; };
+		F21B627B1E1AF7B20088E79A /* LMWChargeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWChargeModel.swift; path = CLasses/Main/Model/LMWChargeModel.swift; sourceTree = "<group>"; };
+		F21B627D1E1AFB010088E79A /* LMWCommentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWCommentModel.swift; path = CLasses/Main/Model/LMWCommentModel.swift; sourceTree = "<group>"; };
+		F21B627F1E1AFE900088E79A /* LoadingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoadingCell.xib; path = CLasses/Main/View/LoadingCell.xib; sourceTree = "<group>"; };
+		F21B62801E1AFE900088E79A /* NothingFoundCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NothingFoundCell.xib; path = CLasses/Main/View/NothingFoundCell.xib; sourceTree = "<group>"; };
+		F21B62841E1B22410088E79A /* LMWDataBaseTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWDataBaseTools.swift; path = CLasses/Main/Tools/LMWDataBaseTools.swift; sourceTree = "<group>"; };
+		F22080D81E134F09005FCCDC /* LMWPopBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWPopBottomView.swift; path = CLasses/Home/View/LMWPopBottomView.swift; sourceTree = "<group>"; };
+		F22080DC1E13A194005FCCDC /* ChargePointAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChargePointAnnotation.swift; path = CLasses/Home/Model/ChargePointAnnotation.swift; sourceTree = "<group>"; };
+		F2213DE01E125B1F008DD79A /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		F2213DE31E125CBD008DD79A /* chargebaby.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = chargebaby.db; path = CLasses/Others/chargebaby.db; sourceTree = "<group>"; };
+		F2213DE51E125CDA008DD79A /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLiteDB.swift; path = CLasses/Main/SQLiteDB/SQLiteDB.swift; sourceTree = "<group>"; };
+		F2213DE61E125CDA008DD79A /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLTable.swift; path = CLasses/Main/SQLiteDB/SQLTable.swift; sourceTree = "<group>"; };
+		F2213DE71E125CDA008DD79A /* String-Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String-Extras.swift"; path = "CLasses/Main/SQLiteDB/String-Extras.swift"; sourceTree = "<group>"; };
+		F222D6831E101CC000676CA3 /* BottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BottomView.xib; path = CLasses/Home/View/BottomView.xib; sourceTree = "<group>"; };
+		F22314931E1DF4D500B8EFB7 /* LMWDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWDetailViewController.swift; path = CLasses/Home/Controller/LMWDetailViewController.swift; sourceTree = "<group>"; };
+		F22314951E1DF4ED00B8EFB7 /* LMWCommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWCommentViewController.swift; path = CLasses/Home/Controller/LMWCommentViewController.swift; sourceTree = "<group>"; };
+		F22314971E1DF80200B8EFB7 /* commentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = commentCell.swift; path = CLasses/Home/View/commentCell.swift; sourceTree = "<group>"; };
+		F22314981E1DF80200B8EFB7 /* commentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = commentCell.xib; path = CLasses/Home/View/commentCell.xib; sourceTree = "<group>"; };
+		F223149B1E1E1EB900B8EFB7 /* LMWCommentResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWCommentResults.swift; path = CLasses/Main/Model/LMWCommentResults.swift; sourceTree = "<group>"; };
+		F223149E1E1E243800B8EFB7 /* LMWGetDataFromRemote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWGetDataFromRemote.swift; path = CLasses/Main/Tools/LMWGetDataFromRemote.swift; sourceTree = "<group>"; };
+		F223C7FD1E19083A00569F21 /* LMWChargeDianpingStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LMWChargeDianpingStoryboard.storyboard; path = CLasses/Home/View/LMWChargeDianpingStoryboard.storyboard; sourceTree = "<group>"; };
+		F223C7FF1E19850F00569F21 /* LMWCollectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWCollectViewController.swift; path = CLasses/Mine/Controller/LMWCollectViewController.swift; sourceTree = "<group>"; };
+		F223C8011E19856D00569F21 /* LMWFavoriteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWFavoriteTableViewController.swift; path = CLasses/Mine/Controller/LMWFavoriteTableViewController.swift; sourceTree = "<group>"; };
+		F223C8031E198D8A00569F21 /* LMWFavoriteTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LMWFavoriteTableViewCell.xib; path = CLasses/Mine/View/LMWFavoriteTableViewCell.xib; sourceTree = "<group>"; };
+		F223C8051E1991FC00569F21 /* LMWFavoriteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWFavoriteTableViewCell.swift; path = CLasses/Mine/View/LMWFavoriteTableViewCell.swift; sourceTree = "<group>"; };
+		F2260EC51E222C1400F9BD91 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = CLasses/Main/Tools/Reachability.swift; sourceTree = "<group>"; };
+		F22A886C1E1A65F300F00FD7 /* LMWSearchResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LMWSearchResultCell.xib; path = CLasses/Home/View/LMWSearchResultCell.xib; sourceTree = "<group>"; };
+		F22A9D7D1DEA66B200F02C60 /* LMWLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWLoginViewController.swift; path = "CLasses/Login&Register/Controller/LMWLoginViewController.swift"; sourceTree = "<group>"; };
 		F23983DE1DD45114005A448B /* chargebaby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chargebaby.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F23983E11DD45114005A448B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F23983E31DD45114005A448B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F23983E61DD45114005A448B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F23983E81DD45114005A448B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F23983EB1DD45114005A448B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +157,48 @@
 		F23983FD1DD45114005A448B /* chargebabyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chargebabyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F23984011DD45114005A448B /* chargebabyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chargebabyUITests.swift; sourceTree = "<group>"; };
 		F23984031DD45114005A448B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F239841F1DD457D7005A448B /* LMWTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWTabBarController.swift; path = CLasses/Main/Controller/LMWTabBarController.swift; sourceTree = "<group>"; };
+		F23984241DD45847005A448B /* LMWNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWNavigationController.swift; path = CLasses/Main/Controller/LMWNavigationController.swift; sourceTree = "<group>"; };
+		F23984261DD4587F005A448B /* LMWBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWBaseViewController.swift; path = CLasses/Main/Controller/LMWBaseViewController.swift; sourceTree = "<group>"; };
+		F23984281DD458C4005A448B /* LMWMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWMineViewController.swift; path = CLasses/Mine/Controller/LMWMineViewController.swift; sourceTree = "<group>"; };
+		F239842A1DD458F2005A448B /* LMWHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWHomeViewController.swift; path = CLasses/Home/Controller/LMWHomeViewController.swift; sourceTree = "<group>"; };
+		F239842C1DD45A78005A448B /* LMWConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWConst.swift; path = CLasses/Main/Tools/LMWConst.swift; sourceTree = "<group>"; };
+		F267EF001E1BB7AE00131715 /* LMWSearchViewStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LMWSearchViewStoryboard.storyboard; path = CLasses/Home/View/LMWSearchViewStoryboard.storyboard; sourceTree = "<group>"; };
+		F267EF021E1BB7DC00131715 /* LMWSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWSearchViewController.swift; path = CLasses/Home/Controller/LMWSearchViewController.swift; sourceTree = "<group>"; };
+		F27864511DFFD19C008921EE /* LMWFeedbackModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWFeedbackModel.swift; path = CLasses/Mine/Model/LMWFeedbackModel.swift; sourceTree = "<group>"; };
+		F27864531DFFE552008921EE /* LMWFeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWFeedbackViewController.swift; path = CLasses/Mine/Controller/LMWFeedbackViewController.swift; sourceTree = "<group>"; };
+		F279C62F1DF6C74B008EEA6A /* LMWRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWRegisterViewController.swift; path = "CLasses/Login&Register/Controller/LMWRegisterViewController.swift"; sourceTree = "<group>"; };
+		F279C6311DF6D2D9008EEA6A /* LMWRegisterStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LMWRegisterStoryboard.storyboard; path = "CLasses/Login&Register/View/LMWRegisterStoryboard.storyboard"; sourceTree = "<group>"; };
+		F28072CB1DF5474300623EBD /* LMWFavoriteModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWFavoriteModel.swift; path = CLasses/Main/Model/LMWFavoriteModel.swift; sourceTree = "<group>"; };
+		F28072CD1DF591CE00623EBD /* LMWTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWTools.swift; path = CLasses/Main/Tools/LMWTools.swift; sourceTree = "<group>"; };
+		F2A2CAC41DDC39DC0046A951 /* LMWHomeViewStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LMWHomeViewStoryboard.storyboard; path = CLasses/Home/View/LMWHomeViewStoryboard.storyboard; sourceTree = "<group>"; };
+		F2ABFD6F1DDB1DB90079A296 /* LMWMineViewStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LMWMineViewStoryboard.storyboard; path = CLasses/Mine/View/LMWMineViewStoryboard.storyboard; sourceTree = "<group>"; };
+		F2AC97A41DF1242900C58C42 /* LMWSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWSettingViewController.swift; path = CLasses/Mine/Controller/LMWSettingViewController.swift; sourceTree = "<group>"; };
+		F2AC97A61DF1247200C58C42 /* LMWSettingViewStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LMWSettingViewStoryboard.storyboard; path = CLasses/Mine/View/LMWSettingViewStoryboard.storyboard; sourceTree = "<group>"; };
+		F2B8B4DA1DF0107000C9720D /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "CLasses/Main/Category/String+Extension.swift"; sourceTree = "<group>"; };
+		F2B8B4DC1DF015FB00C9720D /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Header.h; path = CLasses/Others/Header.h; sourceTree = "<group>"; };
+		F2CF99EA1DE3EB9100BCE87F /* LMWLoginStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LMWLoginStoryboard.storyboard; path = "CLasses/Login&Register/View/LMWLoginStoryboard.storyboard"; sourceTree = "<group>"; };
+		F2D5ED541E1714F500F8C355 /* BaseUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseUIView.swift; path = CLasses/Main/View/BaseUIView.swift; sourceTree = "<group>"; };
+		F2DB5F111DFBF3C1002558A2 /* LMWForgetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWForgetPasswordViewController.swift; path = "CLasses/Login&Register/Controller/LMWForgetPasswordViewController.swift"; sourceTree = "<group>"; };
+		F2DB5F131DFC004E002558A2 /* LMWForgetPasswordStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LMWForgetPasswordStoryboard.storyboard; path = "CLasses/Login&Register/View/LMWForgetPasswordStoryboard.storyboard"; sourceTree = "<group>"; };
+		F2E6BF651E17A6B900F5FD11 /* SKLaunchMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKLaunchMenu.swift; path = CLasses/Main/SKScNavBarController/SKViews/SKLaunchMenu.swift; sourceTree = "<group>"; };
+		F2E6BF661E17A6B900F5FD11 /* SKLaunchMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKLaunchMenuItem.swift; path = CLasses/Main/SKScNavBarController/SKViews/SKLaunchMenuItem.swift; sourceTree = "<group>"; };
+		F2E6BF671E17A6B900F5FD11 /* SKScNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKScNavBar.swift; path = CLasses/Main/SKScNavBarController/SKViews/SKScNavBar.swift; sourceTree = "<group>"; };
+		F2E6BF6B1E17A6D400F5FD11 /* arrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "arrow@3x.png"; path = "CLasses/Main/SKScNavBarController/SKMacros/arrow@3x.png"; sourceTree = "<group>"; };
+		F2E6BF6C1E17A6D400F5FD11 /* SKMacros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKMacros.swift; path = CLasses/Main/SKScNavBarController/SKMacros/SKMacros.swift; sourceTree = "<group>"; };
+		F2E6BF6F1E17A6E200F5FD11 /* SKScNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKScNavViewController.swift; path = CLasses/Main/SKScNavBarController/SKController/SKScNavViewController.swift; sourceTree = "<group>"; };
+		F2E6BF711E17C2E400F5FD11 /* LMWChargeTitleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWChargeTitleViewController.swift; path = CLasses/Home/Controller/LMWChargeTitleViewController.swift; sourceTree = "<group>"; };
+		F2E6BF731E17D55F00F5FD11 /* LMWChargeStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LMWChargeStoryboard.storyboard; path = CLasses/Home/View/LMWChargeStoryboard.storyboard; sourceTree = "<group>"; };
+		F2E6BF751E17DB2B00F5FD11 /* LMWChargeDetailViewStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LMWChargeDetailViewStoryboard.storyboard; path = CLasses/Home/View/LMWChargeDetailViewStoryboard.storyboard; sourceTree = "<group>"; };
+		F2F1D8621E15E20000003E9D /* YSSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YSSegmentedControl.swift; path = CLasses/Home/Controller/YSSegmentedControl.swift; sourceTree = "<group>"; };
+		F2F1D8641E15E58E00003E9D /* LMWChargeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWChargeViewController.swift; path = CLasses/Home/Controller/LMWChargeViewController.swift; sourceTree = "<group>"; };
+		F2F1D8681E15ECE700003E9D /* LMWChargeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWChargeDetailViewController.swift; path = CLasses/Home/Controller/LMWChargeDetailViewController.swift; sourceTree = "<group>"; };
+		F2F1D86A1E15ED0400003E9D /* LMWChargeDianpingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWChargeDianpingViewController.swift; path = CLasses/Home/Controller/LMWChargeDianpingViewController.swift; sourceTree = "<group>"; };
+		F2F1D8781E16672D00003E9D /* LMWChargeDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LMWChargeDetailView.xib; path = CLasses/Home/View/LMWChargeDetailView.xib; sourceTree = "<group>"; };
+		F2F1D87A1E16674300003E9D /* LMWChargeDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWChargeDetailView.swift; path = CLasses/Home/View/LMWChargeDetailView.swift; sourceTree = "<group>"; };
+		F2F1D87C1E16675D00003E9D /* LMWChargeDianpingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWChargeDianpingView.swift; path = CLasses/Home/View/LMWChargeDianpingView.swift; sourceTree = "<group>"; };
+		F2F1D87E1E16676C00003E9D /* LMWChargeDianpingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LMWChargeDianpingView.xib; path = CLasses/Home/View/LMWChargeDianpingView.xib; sourceTree = "<group>"; };
+		F2FF04EB1E0F5D6C00042FC1 /* BottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BottomView.swift; path = CLasses/Home/View/BottomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +206,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2213DE11E125B1F008DD79A /* libsqlite3.0.tbd in Frameworks */,
+				80466F897CA945AD20C51B5E /* Pods_chargebaby.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +228,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A13DDA326FCDABDC742726F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDFB6769B2CB67A75C4D5582 /* Pods-chargebaby.debug.xcconfig */,
+				477A157EE0CE4CB92C8D2423 /* Pods-chargebaby.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AFDEBABD493C0D779740AA11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2213DE01E125B1F008DD79A /* libsqlite3.0.tbd */,
+				C8A045C97BF0AA9896668065 /* Pods_chargebaby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F21920E01DF4204D00B2A22E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F21920E11DF4206B00B2A22E /* LMWUserInfoModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F21920E41DF4353400B2A22E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F21920E51DF4355700B2A22E /* LMWJsonModel.swift */,
+				F28072CB1DF5474300623EBD /* LMWFavoriteModel.swift */,
+				F21B627B1E1AF7B20088E79A /* LMWChargeModel.swift */,
+				F21B627D1E1AFB010088E79A /* LMWCommentModel.swift */,
+				F223149B1E1E1EB900B8EFB7 /* LMWCommentResults.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F2213DE21E125B8F008DD79A /* SQLiteDB */ = {
+			isa = PBXGroup;
+			children = (
+				F2213DE51E125CDA008DD79A /* SQLiteDB.swift */,
+				F2213DE61E125CDA008DD79A /* SQLTable.swift */,
+				F2213DE71E125CDA008DD79A /* String-Extras.swift */,
+			);
+			name = SQLiteDB;
+			sourceTree = "<group>";
+		};
 		F23983D51DD45114005A448B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +283,8 @@
 				F23983F51DD45114005A448B /* chargebabyTests */,
 				F23984001DD45114005A448B /* chargebabyUITests */,
 				F23983DF1DD45114005A448B /* Products */,
+				6A13DDA326FCDABDC742726F /* Pods */,
+				AFDEBABD493C0D779740AA11 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +301,8 @@
 		F23983E01DD45114005A448B /* chargebaby */ = {
 			isa = PBXGroup;
 			children = (
-				F23983E11DD45114005A448B /* AppDelegate.swift */,
-				F23983E31DD45114005A448B /* ViewController.swift */,
-				F23983E51DD45114005A448B /* Main.storyboard */,
+				F23984111DD455F0005A448B /* Classes */,
 				F23983E81DD45114005A448B /* Assets.xcassets */,
-				F23983EA1DD45114005A448B /* LaunchScreen.storyboard */,
-				F23983ED1DD45114005A448B /* Info.plist */,
 			);
 			path = chargebaby;
 			sourceTree = "<group>";
@@ -125,6 +325,253 @@
 			path = chargebabyUITests;
 			sourceTree = "<group>";
 		};
+		F239840F1DD455D8005A448B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F239841A1DD456E2005A448B /* View */,
+				F23984191DD456DB005A448B /* Model */,
+				F23984181DD456D2005A448B /* Controller */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		F23984101DD455E4005A448B /* Login&Register */ = {
+			isa = PBXGroup;
+			children = (
+				F21920E01DF4204D00B2A22E /* Model */,
+				F2CF99E91DE3EB5200BCE87F /* View */,
+				F239841E1DD45715005A448B /* Controller */,
+			);
+			name = "Login&Register";
+			sourceTree = "<group>";
+		};
+		F23984111DD455F0005A448B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F23984131DD45611005A448B /* Mine */,
+				F23984141DD4561C005A448B /* Others */,
+				F23984121DD4560B005A448B /* Main */,
+				F23984101DD455E4005A448B /* Login&Register */,
+				F239840F1DD455D8005A448B /* Home */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		F23984121DD4560B005A448B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F2E6BF611E17A5F100F5FD11 /* SKScNavBarController */,
+				F2213DE21E125B8F008DD79A /* SQLiteDB */,
+				F21920E41DF4353400B2A22E /* Model */,
+				F2A2CAC11DDC355D0046A951 /* View */,
+				F239841D1DD45708005A448B /* Tools */,
+				F239841C1DD456FE005A448B /* Controller */,
+				F239841B1DD456F4005A448B /* Category */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		F23984131DD45611005A448B /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				F23984171DD456B3005A448B /* View */,
+				F23984161DD456AC005A448B /* Model */,
+				F23984151DD4567E005A448B /* Controller */,
+			);
+			name = Mine;
+			sourceTree = "<group>";
+		};
+		F23984141DD4561C005A448B /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				F2213DE31E125CBD008DD79A /* chargebaby.db */,
+				F2B8B4DC1DF015FB00C9720D /* Header.h */,
+				F23983EA1DD45114005A448B /* LaunchScreen.storyboard */,
+				F23983ED1DD45114005A448B /* Info.plist */,
+				F23983E11DD45114005A448B /* AppDelegate.swift */,
+				F23983E51DD45114005A448B /* Main.storyboard */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		F23984151DD4567E005A448B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F23984281DD458C4005A448B /* LMWMineViewController.swift */,
+				F2AC97A41DF1242900C58C42 /* LMWSettingViewController.swift */,
+				F27864531DFFE552008921EE /* LMWFeedbackViewController.swift */,
+				F223C7FF1E19850F00569F21 /* LMWCollectViewController.swift */,
+				F223C8011E19856D00569F21 /* LMWFavoriteTableViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F23984161DD456AC005A448B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F27864511DFFD19C008921EE /* LMWFeedbackModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F23984171DD456B3005A448B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2ABFD6F1DDB1DB90079A296 /* LMWMineViewStoryboard.storyboard */,
+				F2AC97A61DF1247200C58C42 /* LMWSettingViewStoryboard.storyboard */,
+				F223C8031E198D8A00569F21 /* LMWFavoriteTableViewCell.xib */,
+				F223C8051E1991FC00569F21 /* LMWFavoriteTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F23984181DD456D2005A448B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F2F1D8621E15E20000003E9D /* YSSegmentedControl.swift */,
+				F239842A1DD458F2005A448B /* LMWHomeViewController.swift */,
+				F2F1D8641E15E58E00003E9D /* LMWChargeViewController.swift */,
+				F2F1D8681E15ECE700003E9D /* LMWChargeDetailViewController.swift */,
+				F2F1D86A1E15ED0400003E9D /* LMWChargeDianpingViewController.swift */,
+				F2E6BF711E17C2E400F5FD11 /* LMWChargeTitleViewController.swift */,
+				F267EF021E1BB7DC00131715 /* LMWSearchViewController.swift */,
+				F22314931E1DF4D500B8EFB7 /* LMWDetailViewController.swift */,
+				F22314951E1DF4ED00B8EFB7 /* LMWCommentViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F23984191DD456DB005A448B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F22080D81E134F09005FCCDC /* LMWPopBottomView.swift */,
+				F22080DC1E13A194005FCCDC /* ChargePointAnnotation.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F239841A1DD456E2005A448B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2E6BF731E17D55F00F5FD11 /* LMWChargeStoryboard.storyboard */,
+				F222D6831E101CC000676CA3 /* BottomView.xib */,
+				F2FF04EB1E0F5D6C00042FC1 /* BottomView.swift */,
+				F2A2CAC41DDC39DC0046A951 /* LMWHomeViewStoryboard.storyboard */,
+				F2F1D8781E16672D00003E9D /* LMWChargeDetailView.xib */,
+				F2F1D87A1E16674300003E9D /* LMWChargeDetailView.swift */,
+				F2F1D87C1E16675D00003E9D /* LMWChargeDianpingView.swift */,
+				F2F1D87E1E16676C00003E9D /* LMWChargeDianpingView.xib */,
+				F2E6BF751E17DB2B00F5FD11 /* LMWChargeDetailViewStoryboard.storyboard */,
+				F223C7FD1E19083A00569F21 /* LMWChargeDianpingStoryboard.storyboard */,
+				F21326171E1A361C0079B5E1 /* LMWHomeSearchBar.swift */,
+				F22A886C1E1A65F300F00FD7 /* LMWSearchResultCell.xib */,
+				F21B62771E1ABF170088E79A /* LMWSearchResultCell.swift */,
+				F267EF001E1BB7AE00131715 /* LMWSearchViewStoryboard.storyboard */,
+				F22314971E1DF80200B8EFB7 /* commentCell.swift */,
+				F22314981E1DF80200B8EFB7 /* commentCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F239841B1DD456F4005A448B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F2B8B4DA1DF0107000C9720D /* String+Extension.swift */,
+				F20D0BB61E24296500A05D6D /* UIImage+Extendion.swift */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		F239841C1DD456FE005A448B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F239841F1DD457D7005A448B /* LMWTabBarController.swift */,
+				F23984241DD45847005A448B /* LMWNavigationController.swift */,
+				F23984261DD4587F005A448B /* LMWBaseViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F239841D1DD45708005A448B /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F2260EC51E222C1400F9BD91 /* Reachability.swift */,
+				F239842C1DD45A78005A448B /* LMWConst.swift */,
+				F28072CD1DF591CE00623EBD /* LMWTools.swift */,
+				F21920DC1DF3FEA500B2A22E /* LMWLoginInfoUtils.swift */,
+				F21B62841E1B22410088E79A /* LMWDataBaseTools.swift */,
+				F223149E1E1E243800B8EFB7 /* LMWGetDataFromRemote.swift */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		F239841E1DD45715005A448B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F22A9D7D1DEA66B200F02C60 /* LMWLoginViewController.swift */,
+				F279C62F1DF6C74B008EEA6A /* LMWRegisterViewController.swift */,
+				F2DB5F111DFBF3C1002558A2 /* LMWForgetPasswordViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F2A2CAC11DDC355D0046A951 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F21B627F1E1AFE900088E79A /* LoadingCell.xib */,
+				F21B62801E1AFE900088E79A /* NothingFoundCell.xib */,
+				F2D5ED541E1714F500F8C355 /* BaseUIView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F2CF99E91DE3EB5200BCE87F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2CF99EA1DE3EB9100BCE87F /* LMWLoginStoryboard.storyboard */,
+				F279C6311DF6D2D9008EEA6A /* LMWRegisterStoryboard.storyboard */,
+				F2DB5F131DFC004E002558A2 /* LMWForgetPasswordStoryboard.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F2E6BF611E17A5F100F5FD11 /* SKScNavBarController */ = {
+			isa = PBXGroup;
+			children = (
+				F2E6BF641E17A67A00F5FD11 /* SKViews */,
+				F2E6BF631E17A66F00F5FD11 /* SKMacros */,
+				F2E6BF621E17A66200F5FD11 /* SKController */,
+			);
+			name = SKScNavBarController;
+			sourceTree = "<group>";
+		};
+		F2E6BF621E17A66200F5FD11 /* SKController */ = {
+			isa = PBXGroup;
+			children = (
+				F2E6BF6F1E17A6E200F5FD11 /* SKScNavViewController.swift */,
+			);
+			name = SKController;
+			sourceTree = "<group>";
+		};
+		F2E6BF631E17A66F00F5FD11 /* SKMacros */ = {
+			isa = PBXGroup;
+			children = (
+				F2E6BF6B1E17A6D400F5FD11 /* arrow@3x.png */,
+				F2E6BF6C1E17A6D400F5FD11 /* SKMacros.swift */,
+			);
+			name = SKMacros;
+			sourceTree = "<group>";
+		};
+		F2E6BF641E17A67A00F5FD11 /* SKViews */ = {
+			isa = PBXGroup;
+			children = (
+				F2E6BF651E17A6B900F5FD11 /* SKLaunchMenu.swift */,
+				F2E6BF661E17A6B900F5FD11 /* SKLaunchMenuItem.swift */,
+				F2E6BF671E17A6B900F5FD11 /* SKScNavBar.swift */,
+			);
+			name = SKViews;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +579,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F23984061DD45114005A448B /* Build configuration list for PBXNativeTarget "chargebaby" */;
 			buildPhases = (
+				725D719D3012FAD76A08FD98 /* [CP] Check Pods Manifest.lock */,
 				F23983DA1DD45114005A448B /* Sources */,
 				F23983DB1DD45114005A448B /* Frameworks */,
 				F23983DC1DD45114005A448B /* Resources */,
+				F0D5FB36F0E4B558E30AEDEC /* [CP] Embed Pods Frameworks */,
+				A4C6C427BABE0CC2EA637DBC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +643,13 @@
 				TargetAttributes = {
 					F23983DD1DD45114005A448B = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 255A69XTQ5;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					F23983F11DD45114005A448B = {
 						CreatedOnToolsVersion = 8.1;
@@ -232,8 +688,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2E6BF761E17DB2B00F5FD11 /* LMWChargeDetailViewStoryboard.storyboard in Resources */,
+				F21B62821E1AFE900088E79A /* NothingFoundCell.xib in Resources */,
+				F2DB5F141DFC004E002558A2 /* LMWForgetPasswordStoryboard.storyboard in Resources */,
+				F279C6321DF6D2D9008EEA6A /* LMWRegisterStoryboard.storyboard in Resources */,
 				F23983EC1DD45114005A448B /* LaunchScreen.storyboard in Resources */,
+				F2ABFD701DDB1DB90079A296 /* LMWMineViewStoryboard.storyboard in Resources */,
+				F2E6BF6D1E17A6D400F5FD11 /* arrow@3x.png in Resources */,
+				F2213DE41E125CBD008DD79A /* chargebaby.db in Resources */,
+				F2A2CAC51DDC39DC0046A951 /* LMWHomeViewStoryboard.storyboard in Resources */,
+				F2E6BF741E17D55F00F5FD11 /* LMWChargeStoryboard.storyboard in Resources */,
 				F23983E91DD45114005A448B /* Assets.xcassets in Resources */,
+				F2F1D87F1E16676C00003E9D /* LMWChargeDianpingView.xib in Resources */,
+				F223C7FE1E19083A00569F21 /* LMWChargeDianpingStoryboard.storyboard in Resources */,
+				F22A886D1E1A65F300F00FD7 /* LMWSearchResultCell.xib in Resources */,
+				F267EF011E1BB7AE00131715 /* LMWSearchViewStoryboard.storyboard in Resources */,
+				F2F1D8791E16672D00003E9D /* LMWChargeDetailView.xib in Resources */,
+				F2AC97A71DF1247200C58C42 /* LMWSettingViewStoryboard.storyboard in Resources */,
+				F21B62811E1AFE900088E79A /* LoadingCell.xib in Resources */,
+				F223C8041E198D8A00569F21 /* LMWFavoriteTableViewCell.xib in Resources */,
+				F222D6841E101CC000676CA3 /* BottomView.xib in Resources */,
+				F2CF99EB1DE3EB9100BCE87F /* LMWLoginStoryboard.storyboard in Resources */,
+				F223149A1E1DF80200B8EFB7 /* commentCell.xib in Resources */,
 				F23983E71DD45114005A448B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +730,113 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		725D719D3012FAD76A08FD98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A4C6C427BABE0CC2EA637DBC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-chargebaby/Pods-chargebaby-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0D5FB36F0E4B558E30AEDEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-chargebaby/Pods-chargebaby-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F23983DA1DD45114005A448B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F23983E41DD45114005A448B /* ViewController.swift in Sources */,
+				F2213DEA1E125CDA008DD79A /* String-Extras.swift in Sources */,
+				F21920DD1DF3FEA500B2A22E /* LMWLoginInfoUtils.swift in Sources */,
+				F27864541DFFE552008921EE /* LMWFeedbackViewController.swift in Sources */,
+				F21920E21DF4206B00B2A22E /* LMWUserInfoModel.swift in Sources */,
+				F2AC97A51DF1242900C58C42 /* LMWSettingViewController.swift in Sources */,
+				F2260EC61E222C1400F9BD91 /* Reachability.swift in Sources */,
+				F2F1D8691E15ECE700003E9D /* LMWChargeDetailViewController.swift in Sources */,
+				F28072CE1DF591CE00623EBD /* LMWTools.swift in Sources */,
+				F239842D1DD45A78005A448B /* LMWConst.swift in Sources */,
+				F2D5ED551E1714F500F8C355 /* BaseUIView.swift in Sources */,
+				F21B62851E1B22410088E79A /* LMWDataBaseTools.swift in Sources */,
+				F22080DD1E13A194005FCCDC /* ChargePointAnnotation.swift in Sources */,
+				F21326181E1A361C0079B5E1 /* LMWHomeSearchBar.swift in Sources */,
+				F2F1D8631E15E20000003E9D /* YSSegmentedControl.swift in Sources */,
+				F2E6BF681E17A6B900F5FD11 /* SKLaunchMenu.swift in Sources */,
+				F2B8B4DB1DF0107000C9720D /* String+Extension.swift in Sources */,
+				F2F1D86B1E15ED0400003E9D /* LMWChargeDianpingViewController.swift in Sources */,
+				F23984271DD4587F005A448B /* LMWBaseViewController.swift in Sources */,
+				F21920E61DF4355700B2A22E /* LMWJsonModel.swift in Sources */,
+				F2DB5F121DFBF3C1002558A2 /* LMWForgetPasswordViewController.swift in Sources */,
+				F2F1D87B1E16674300003E9D /* LMWChargeDetailView.swift in Sources */,
+				F223C8021E19856D00569F21 /* LMWFavoriteTableViewController.swift in Sources */,
+				F23984251DD45847005A448B /* LMWNavigationController.swift in Sources */,
+				F22080D91E134F09005FCCDC /* LMWPopBottomView.swift in Sources */,
+				F2213DE81E125CDA008DD79A /* SQLiteDB.swift in Sources */,
+				F223C8061E1991FC00569F21 /* LMWFavoriteTableViewCell.swift in Sources */,
+				F22314961E1DF4ED00B8EFB7 /* LMWCommentViewController.swift in Sources */,
+				F2E6BF6E1E17A6D400F5FD11 /* SKMacros.swift in Sources */,
+				F21B62781E1ABF170088E79A /* LMWSearchResultCell.swift in Sources */,
+				F239842B1DD458F2005A448B /* LMWHomeViewController.swift in Sources */,
+				F22314941E1DF4D500B8EFB7 /* LMWDetailViewController.swift in Sources */,
+				F2F1D87D1E16675D00003E9D /* LMWChargeDianpingView.swift in Sources */,
+				F267EF031E1BB7DC00131715 /* LMWSearchViewController.swift in Sources */,
+				F21B627C1E1AF7B20088E79A /* LMWChargeModel.swift in Sources */,
+				F22314991E1DF80200B8EFB7 /* commentCell.swift in Sources */,
+				F223C8001E19850F00569F21 /* LMWCollectViewController.swift in Sources */,
+				F23984201DD457D7005A448B /* LMWTabBarController.swift in Sources */,
+				F2E6BF6A1E17A6B900F5FD11 /* SKScNavBar.swift in Sources */,
+				F2F1D8651E15E58E00003E9D /* LMWChargeViewController.swift in Sources */,
+				F2E6BF691E17A6B900F5FD11 /* SKLaunchMenuItem.swift in Sources */,
 				F23983E21DD45114005A448B /* AppDelegate.swift in Sources */,
+				F2213DE91E125CDA008DD79A /* SQLTable.swift in Sources */,
+				F27864521DFFD19C008921EE /* LMWFeedbackModel.swift in Sources */,
+				F2E6BF701E17A6E200F5FD11 /* SKScNavViewController.swift in Sources */,
+				F23984291DD458C4005A448B /* LMWMineViewController.swift in Sources */,
+				F2E6BF721E17C2E400F5FD11 /* LMWChargeTitleViewController.swift in Sources */,
+				F28072CC1DF5474300623EBD /* LMWFavoriteModel.swift in Sources */,
+				F21B627E1E1AFB010088E79A /* LMWCommentModel.swift in Sources */,
+				F279C6301DF6C74B008EEA6A /* LMWRegisterViewController.swift in Sources */,
+				F22A9D7E1DEA66B200F02C60 /* LMWLoginViewController.swift in Sources */,
+				F2FF04ED1E0F5D6C00042FC1 /* BottomView.swift in Sources */,
+				F223149F1E1E243800B8EFB7 /* LMWGetDataFromRemote.swift in Sources */,
+				F20D0BB71E24296500A05D6D /* UIImage+Extendion.swift in Sources */,
+				F223149C1E1E1EB900B8EFB7 /* LMWCommentResults.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +853,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F23984021DD45114005A448B /* chargebabyUITests.swift in Sources */,
+				F223149D1E1E203300B8EFB7 /* LMWCommentResults.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +910,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -355,11 +933,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = chargebaby/CLasses/Others/Header.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -383,6 +962,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -399,9 +979,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = chargebaby/CLasses/Others/Header.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -410,9 +991,16 @@
 		};
 		F23984071DD45114005A448B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDFB6769B2CB67A75C4D5582 /* Pods-chargebaby.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 255A69XTQ5;
 				INFOPLIST_FILE = chargebaby/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liumw.chargebaby;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +1010,16 @@
 		};
 		F23984081DD45114005A448B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 477A157EE0CE4CB92C8D2423 /* Pods-chargebaby.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 255A69XTQ5;
 				INFOPLIST_FILE = chargebaby/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liumw.chargebaby;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +1100,7 @@
 				F23984081DD45114005A448B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F23984091DD45114005A448B /* Build configuration list for PBXNativeTarget "chargebabyTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +1109,7 @@
 				F239840B1DD45114005A448B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F239840C1DD45114005A448B /* Build configuration list for PBXNativeTarget "chargebabyUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +1118,7 @@
 				F239840E1DD45114005A448B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
