@@ -7,15 +7,52 @@
 //
 
 import UIKit
+import HandyJSON
 
+@available(iOS 9.0, *)
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    
 
-
+    func configAPIKey(){
+        AMapServices.shared().apiKey = APIKey
+    }
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+//        UIApplication.shared.statusBarStyle = UIStatusBarStyle.
+        Bugly.start(withAppId: BUGLY_APPID)
+
+        configAPIKey()
+        
+        UIButton.appearance().isExclusiveTouch = true
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+       
+//        let userDefaults = UserDefaults.standard
+////        let userInfoStr = userDefaults.string(forKey: LONIN_INFO)
+////        let userInfo = userDefaults.object(forKey: LONIN_INFO)
+//        let isLogin = userDefaults.bool(forKey: IS_LOGIN)
+//        
+//        LMWGlobalIsLogin = isLogin
+        
+        LMWLoginInfoUtils.shareLoginInfoUtils.getLoginInfo()
+        
+        if (LMWGlobalIsLogin) {
+            
+            let username = LMWGlobalUserInfo?.username
+            NSLog( username! + "已经登陆")
+        }else{
+            
+            NSLog("未登录")
+        }
+      
+
+        Thread.sleep(forTimeInterval: 3)//欢迎页面，延长3秒
+        self.window?.rootViewController = LMWTabBarController()
+        self.window?.makeKeyAndVisible()
         return true
     }
 

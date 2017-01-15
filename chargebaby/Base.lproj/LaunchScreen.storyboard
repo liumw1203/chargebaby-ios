@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,12 +20,56 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="zZw-qI-Yhf">
+                                <rect key="frame" x="0.0" y="220" width="375" height="200"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hbF-GQ-EwB">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="26"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome_512*512" translatesAutoresizingMaskIntoConstraints="NO" id="JUp-SW-Pt6">
+                                                <rect key="frame" x="112" y="-62" width="150" height="150"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="150" id="Fgg-BO-1cM"/>
+                                                    <constraint firstAttribute="height" constant="150" id="pvN-0t-QBb"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="r20-5f-fiy"/>
+                                                    <constraint firstAttribute="width" constant="150" id="tCh-h7-Yvr"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="JUp-SW-Pt6" firstAttribute="top" secondItem="hbF-GQ-EwB" secondAttribute="top" constant="-62" id="EgD-0Z-HLw"/>
+                                            <constraint firstItem="JUp-SW-Pt6" firstAttribute="centerY" secondItem="hbF-GQ-EwB" secondAttribute="centerY" id="MPa-FV-iAf"/>
+                                            <constraint firstItem="JUp-SW-Pt6" firstAttribute="centerX" secondItem="hbF-GQ-EwB" secondAttribute="centerX" id="i6w-jM-8ym"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="充电，上桩宝宝" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Cn-5e-NA4">
+                                        <rect key="frame" x="0.0" y="26" width="375" height="174"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <color key="textColor" red="1" green="0.21407157230000001" blue="0.28969706000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="6Vn-xV-ZX5"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zZw-qI-Yhf" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="200" id="7Jl-AX-6fM"/>
+                            <constraint firstAttribute="trailing" secondItem="zZw-qI-Yhf" secondAttribute="trailing" id="Dbc-4T-u0Q"/>
+                            <constraint firstItem="zZw-qI-Yhf" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="P8u-06-kSd"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="welcome_512*512" width="512" height="512"/>
+    </resources>
 </document>

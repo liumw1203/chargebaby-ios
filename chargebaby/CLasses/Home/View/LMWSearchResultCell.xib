@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="114" id="emh-c2-5Go" customClass="LMWSearchResultCell" customModule="chargebaby" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="548" height="114"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="emh-c2-5Go" id="4BA-mQ-BUR">
+                <rect key="frame" x="0.0" y="0.0" width="548" height="114"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WFz-7n-yZ0">
+                        <rect key="frame" x="0.0" y="8" width="548" height="105.66666666666667"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="广州电动汽车体验中心充电站" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RKX-r9-ARU" userLabel="name">
+                                <rect key="frame" x="15" y="12" width="212.33333333333334" height="19.333333333333336"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="天河区" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ojs-Ql-udo" userLabel="area">
+                                <rect key="frame" x="489" y="12" width="43" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="广州市番禺区洛浦街五洲装饰城沿江路段（新光快线沙溪出口）四海一品门口露天停车场" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DJo-zh-Lhc" userLabel="address">
+                                <rect key="frame" x="15" y="71" width="517" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="C3J-Qr-Ax3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="交流：220V 32A 7kW；直流：380V 62A 24kW" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jdp-r6-vjc" userLabel="detail">
+                                <rect key="frame" x="15" y="47" width="517" height="15.666666666666664"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="jdp-r6-vjc" secondAttribute="trailing" constant="16" id="2MF-Of-THO"/>
+                            <constraint firstItem="RKX-r9-ARU" firstAttribute="leading" secondItem="WFz-7n-yZ0" secondAttribute="leading" constant="15" id="6de-5i-tAU"/>
+                            <constraint firstItem="jdp-r6-vjc" firstAttribute="leading" secondItem="WFz-7n-yZ0" secondAttribute="leading" constant="15" id="IwU-2V-VpJ"/>
+                            <constraint firstItem="ojs-Ql-udo" firstAttribute="top" secondItem="WFz-7n-yZ0" secondAttribute="top" constant="12" id="UkY-qU-C24"/>
+                            <constraint firstItem="RKX-r9-ARU" firstAttribute="top" secondItem="WFz-7n-yZ0" secondAttribute="top" constant="12" id="X0m-QK-r7o"/>
+                            <constraint firstAttribute="trailing" secondItem="DJo-zh-Lhc" secondAttribute="trailing" constant="16" id="c0T-34-K3M"/>
+                            <constraint firstItem="DJo-zh-Lhc" firstAttribute="leading" secondItem="WFz-7n-yZ0" secondAttribute="leading" constant="15" id="gs1-wD-3TR"/>
+                            <constraint firstAttribute="trailing" secondItem="ojs-Ql-udo" secondAttribute="trailing" constant="16" id="gtM-Pu-4Yp"/>
+                            <constraint firstItem="DJo-zh-Lhc" firstAttribute="top" secondItem="jdp-r6-vjc" secondAttribute="bottom" constant="8.3333333333333357" id="hPe-XY-LXr"/>
+                            <constraint firstAttribute="trailing" secondItem="jdp-r6-vjc" secondAttribute="trailing" constant="16" id="sRQ-6c-tQc"/>
+                            <constraint firstAttribute="bottom" secondItem="DJo-zh-Lhc" secondAttribute="bottom" constant="0.6666666666666714" id="zFR-YO-ibJ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.89796036479999997" green="0.89808970690000001" blue="0.89793205259999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="WFz-7n-yZ0" secondAttribute="trailing" id="HdD-RK-zyH"/>
+                    <constraint firstItem="WFz-7n-yZ0" firstAttribute="top" secondItem="4BA-mQ-BUR" secondAttribute="top" constant="8" id="ePv-KD-n01"/>
+                    <constraint firstItem="WFz-7n-yZ0" firstAttribute="leading" secondItem="4BA-mQ-BUR" secondAttribute="leading" id="g56-7g-xoe"/>
+                    <constraint firstAttribute="bottom" secondItem="WFz-7n-yZ0" secondAttribute="bottom" id="t74-qq-p3L"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="chargeAddressLabel" destination="DJo-zh-Lhc" id="0Kt-h0-Hb4"/>
+                <outlet property="chargeAreaLabel" destination="ojs-Ql-udo" id="7hn-5W-ZgV"/>
+                <outlet property="chargeDetailLabel" destination="jdp-r6-vjc" id="TUm-3l-vI4"/>
+                <outlet property="chargeNameLabel" destination="RKX-r9-ARU" id="ihz-h9-QSR"/>
+            </connections>
+            <point key="canvasLocation" x="210" y="523"/>
+        </tableViewCell>
+    </objects>
+</document>

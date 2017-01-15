@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="514-ch-SeK">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Charge View Controller-->
+        <scene sceneID="kh7-En-R3W">
+            <objects>
+                <viewController storyboardIdentifier="chargeStoryboard" id="E75-EI-O0c" customClass="LMWChargeViewController" customModule="chargebaby" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tVA-UX-6ez"/>
+                        <viewControllerLayoutGuide type="bottom" id="CVP-dR-IEo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DnN-a2-pie">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Rh0-8q-QIn">
+                                <rect key="frame" x="0.0" y="64" width="414" height="85"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cbt-BQ-1eN">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="广州电动汽车体验中心充电站" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KmU-mW-pms">
+                                                <rect key="frame" x="10" y="0.0" width="404" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="j3D-J6-IaM"/>
+                                                </constraints>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Gbg-Wh-dcT"/>
+                                            <constraint firstItem="KmU-mW-pms" firstAttribute="leading" secondItem="cbt-BQ-1eN" secondAttribute="leading" constant="10" id="MY4-dy-b1I"/>
+                                            <constraint firstAttribute="trailing" secondItem="KmU-mW-pms" secondAttribute="trailing" id="Wfj-7L-vpv"/>
+                                            <constraint firstItem="KmU-mW-pms" firstAttribute="top" secondItem="cbt-BQ-1eN" secondAttribute="top" id="fhm-cW-3Ic"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="k8f-sx-91u"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Evf-7c-SVv">
+                                        <rect key="frame" x="0.0" y="40" width="414" height="44"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="广州市番禺区洛浦街五洲装饰城沿江路段（新光快线沙溪出口）四海一品门口露天停车场" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O0A-6a-meV">
+                                                <rect key="frame" x="10" y="0.0" width="404" height="44"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="O0A-6a-meV" firstAttribute="top" secondItem="Evf-7c-SVv" secondAttribute="top" id="AlH-EK-qF2"/>
+                                            <constraint firstAttribute="trailing" secondItem="O0A-6a-meV" secondAttribute="trailing" id="Nvm-Hf-eeK"/>
+                                            <constraint firstAttribute="bottom" secondItem="O0A-6a-meV" secondAttribute="bottom" id="RJ0-LK-tpU"/>
+                                            <constraint firstItem="O0A-6a-meV" firstAttribute="leading" secondItem="Evf-7c-SVv" secondAttribute="leading" constant="10" id="hiQ-fO-YvY"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gis-8r-7yh">
+                                        <rect key="frame" x="0.0" y="84" width="414" height="1"/>
+                                        <color key="backgroundColor" red="0.89796036479999997" green="0.89808970690000001" blue="0.89793205259999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="gdx-8V-pka"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="gab-TJ-vOm"/>
+                                </constraints>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="76G-st-NM9">
+                                <rect key="frame" x="0.0" y="149" width="414" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="PTA-7N-tJB"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lGw-ox-FRm">
+                                <rect key="frame" x="0.0" y="193" width="414" height="543"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="lGw-ox-FRm" secondAttribute="trailing" constant="-20" id="BL0-bL-bjb"/>
+                            <constraint firstItem="76G-st-NM9" firstAttribute="leading" secondItem="Rh0-8q-QIn" secondAttribute="leading" id="CNd-xZ-hcQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="76G-st-NM9" secondAttribute="trailing" constant="-20" id="GDH-2M-Vez"/>
+                            <constraint firstItem="lGw-ox-FRm" firstAttribute="top" secondItem="76G-st-NM9" secondAttribute="bottom" id="GXV-42-ue6"/>
+                            <constraint firstItem="76G-st-NM9" firstAttribute="trailing" secondItem="Rh0-8q-QIn" secondAttribute="trailing" id="KGV-pq-gxK"/>
+                            <constraint firstItem="lGw-ox-FRm" firstAttribute="bottom" secondItem="CVP-dR-IEo" secondAttribute="top" id="L2H-nT-LR4"/>
+                            <constraint firstItem="76G-st-NM9" firstAttribute="top" secondItem="Rh0-8q-QIn" secondAttribute="bottom" id="Mij-lH-6EQ"/>
+                            <constraint firstItem="Rh0-8q-QIn" firstAttribute="top" secondItem="tVA-UX-6ez" secondAttribute="bottom" id="Ubw-jt-Ytk"/>
+                            <constraint firstItem="Rh0-8q-QIn" firstAttribute="leading" secondItem="DnN-a2-pie" secondAttribute="leading" id="Wxq-IL-rbF"/>
+                            <constraint firstItem="lGw-ox-FRm" firstAttribute="leading" secondItem="DnN-a2-pie" secondAttribute="leadingMargin" constant="-20" id="YIR-ir-UNy"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Z0N-PD-a2X"/>
+                    <connections>
+                        <outlet property="chargeAddressTV" destination="O0A-6a-meV" id="DBH-vY-9Ri"/>
+                        <outlet property="chargeNameTF" destination="KmU-mW-pms" id="C2M-s2-ZyC"/>
+                        <outlet property="chargeTabView" destination="lGw-ox-FRm" id="tRC-Zd-g88"/>
+                        <outlet property="segmentView" destination="76G-st-NM9" id="uj0-UY-KuK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I7Y-3o-0ca" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="846.37681159420299" y="126.35869565217392"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="wjB-5A-1D4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="514-ch-SeK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="AS2-ao-llt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="E75-EI-O0c" kind="relationship" relationship="rootViewController" id="gqX-Lt-laB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OFM-a2-3Bq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-92" y="126.38680659670166"/>
+        </scene>
+    </scenes>
+</document>

@@ -22,8 +22,8 @@ class chargebabyTests: XCTestCase {
     }
     
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        //这是一个测试用例
+        XCTAssert(true, "passed")
     }
     
     func testPerformanceExample() {
